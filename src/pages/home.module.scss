@@ -1,0 +1,45 @@
+.contentContainer {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.posts {
+  max-width: 720px;
+  margin: 5rem auto 0;
+
+  strong {
+    display: flex;
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+
+    transition: color 0.2s;
+
+    &:hover {
+      color: var(--pink);
+    }
+  }
+
+  p {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    color: var(--gray-200);
+    margin-bottom: 1rem;
+  }
+
+  div {
+    font-size: 0.875rem;
+    color: var(--gray-300);
+  }
+
+  div time {
+    margin-right: 1.625rem;
+    text-transform: capitalize;
+  }
+
+  div svg {
+    margin-right: 0.5rem;
+  }
+}
